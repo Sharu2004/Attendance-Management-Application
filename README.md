@@ -325,21 +325,11 @@ attendance/
 
 ---
 
-## 10. Screen Recording Demonstration
 
-A dedicated directory is available for screen recording demonstrations:
-- **Location**: [`recordings/`](recordings/)
-- **Step-by-Step Recording Script**: [`docs/Screen_Recording_Checklist.md`](docs/Screen_Recording_Checklist.md)
-- **Demonstration Scope**:
-  1. Cold start & login using quick-fill chips.
-  2. Staff check-in and checkout transitions with live timestamps and duplicate prevention.
-  3. Personal attendance history drilldown.
-  4. Role-based isolation: Senior Staff portal (Staff-only visibility) vs. Admin portal (universal visibility and user management).
-  5. Persistence across app reloads.
 
 ---
 
-## 11. Security & Architecture Disclosures
+## 10. Security & Architecture Disclosures
 
 1. **Client-Side Authorization Limitation**:
    This application enforces role-based access control at the client layer through navigation guards and data filtering selectors (`src/utils/permissions.ts`). In an enterprise production deployment, authorization must be validated server-side through authenticated API tokens and backend database row-level security.
@@ -350,7 +340,7 @@ A dedicated directory is available for screen recording demonstrations:
 
 ---
 
-## 12. Deliverables Summary
+## 11. Deliverables Summary
 
 - **Runnable Source Code**: Complete React Native & Expo application in `src/`.
 - **Automated Tests**: 35 unit and integration tests passing in `tests/`.
