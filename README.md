@@ -356,5 +356,4 @@ A dedicated directory is available for screen recording demonstrations:
 - **Automated Tests**: 35 unit and integration tests passing in `tests/`.
 - **Technical Notes**: In-depth architecture write-up in `docs/Technical_Notes.md` and main `README.md`.
 - **Test Cases Specification**: Traceable test matrix in `docs/Test_Cases.md`.
-- **Screen Recording Folder & Checklist**: Folder [`recordings/`](recordings/) with checklist script in [`docs/Screen_Recording_Checklist.md`](docs/Screen_Recording_Checklist.md).
-- **Complete PDF Report**: Multi-page formal documentation report located at [`docs/Attendance_Management_App_Documentation.pdf`](docs/Attendance_Management_App_Documentation.pdf).
+
